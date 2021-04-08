@@ -1,0 +1,16 @@
+{
+  "name": "split-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Akshay Kadam",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "neat-csv": "^6.0.1"
+  }
+}
