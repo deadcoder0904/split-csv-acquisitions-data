@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only index",
-    "sample": "ts-node-dev --respawn --transpile-only ./sample/index",
+    "start": "ts-node-dev index",
+    "sample": "ts-node-dev ./sample/index",
     "csv_to_json:acquisitions": "csv_to_json acquisitions-data/kaggle/acquisitions.csv -o acquisitions-data/kaggle/acquisitions.json",
     "csv_to_json:objects": "csv_to_json acquisitions-data/kaggle/objects.csv -o acquisitions-data/kaggle/objects.json",
     "csv_to_json": "csv_to_json:acquisitions && csv_to_json:objects",

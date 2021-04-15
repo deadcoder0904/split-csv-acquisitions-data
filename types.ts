@@ -13,6 +13,17 @@ export interface Acquisition {
   updated_at: Date
 }
 
+export interface Acquisition2 {
+  id: number
+  parent_company: string
+  acquired_object_id: string
+  price_amount: number
+  price_currency_code: PriceCurrencyCode
+  acquired_at: string
+  source_url: string
+  source_description: number | string
+}
+
 export enum PriceCurrencyCode {
   Aud = 'AUD',
   CAD = 'CAD',
